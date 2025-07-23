@@ -53,8 +53,8 @@ Running locally requires a capable machine with Python and potentially a GPU for
 
 **Prompt:** `"a cute red mushroom with white spots"`
 
-* **Output `.obj`**: `generated_model_0.obj`
-* **Output `.glb`**: `generated_model_0.glb`
+* **Output `.obj`**: `generated_model_0.obj`(Renamed in repository as per the prompt for easy understanding , but real files are saved in this manner only)
+* **Output `.glb`**: `generated_model_0.glb`(Renamed in repository as per the prompt for easy understanding , but real files are saved in this manner only)
     
 You can open `.obj` or `.glb` files in 3D viewing tools like **Blender**, **Windows 3D Viewer**, or web-based viewers like:
 * [https://gltf-viewer.donmccurdy.com](https://gltf-viewer.donmccurdy.com/)
