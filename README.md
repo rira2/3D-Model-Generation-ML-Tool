@@ -66,7 +66,7 @@ You can open `.obj` or `.glb` files in 3D viewing tools like **Blender**, **Wind
 
 A walkthrough demo of the project (showcasing setup, generation, and output) is available here:
 
-**Demo Video:** [Insert your Google Drive shareable link here] *(Remember to set access to "Anyone with the link")*
+**Demo Video:** [https://drive.google.com/drive/folders/1IsUXe5VJOSdFvxrYPy_Jv-C4Eln13TPr?usp=share_link] *(Remember to set access to "Anyone with the link")*
 
 ---
 
