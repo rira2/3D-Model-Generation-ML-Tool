@@ -23,7 +23,7 @@ This project demonstrates the generation of 3D objects from text prompts using O
 
 The easiest way to run this project is by using the provided Google Colab notebook, which handles environment setup and GPU access.
 
-**[Open in Colab](https://colab.research.google.com/drive/1ccddWYutaKQQF2Ggj7aBOAV79mhHIcLD#scrollTo=_PG2lUXi-389)** *(Note: Replace this with your actual Colab notebook link)*
+**[Open in Colab](https://colab.research.google.com/drive/1ccddWYutaKQQF2Ggj7aBOAV79mhHIcLD#scrollTo=_PG2lUXi-389)** 
 
 1.  Open the notebook in Google Colab.
 2.  Run all cells in order (usually `Runtime` > `Run all`).
