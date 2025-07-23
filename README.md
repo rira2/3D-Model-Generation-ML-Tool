@@ -23,7 +23,7 @@ This project demonstrates the generation of 3D objects from text prompts using O
 
 The easiest way to run this project is by using the provided Google Colab notebook, which handles environment setup and GPU access.
 
-**[Open in Colab](https://colab.research.google.com/)** *(Note: Replace this with your actual Colab notebook link)*
+**[Open in Colab](https://colab.research.google.com/drive/1ccddWYutaKQQF2Ggj7aBOAV79mhHIcLD#scrollTo=_PG2lUXi-389)** *(Note: Replace this with your actual Colab notebook link)*
 
 1.  Open the notebook in Google Colab.
 2.  Run all cells in order (usually `Runtime` > `Run all`).
@@ -55,10 +55,7 @@ Running locally requires a capable machine with Python and potentially a GPU for
 
 * **Output `.obj`**: `generated_model_0.obj`
 * **Output `.glb`**: `generated_model_0.glb`
-* **Preview render:**
-    *(Insert your sample GIF here - either direct embed or link to image hosting)*
-    ![Sample GIF Preview](https://example.com/path/to/your/sample_mushroom.gif) *(Replace with actual GIF or a placeholder link)*
-
+    
 You can open `.obj` or `.glb` files in 3D viewing tools like **Blender**, **Windows 3D Viewer**, or web-based viewers like:
 * [https://gltf-viewer.donmccurdy.com](https://gltf-viewer.donmccurdy.com/)
 * [https://3dviewer.net/](https://3dviewer.net/)
@@ -91,7 +88,6 @@ The attempted implementation can be seen in `app/main.py` *(Note: Adjust this pa
 1.  **Robust Web API Deployment**: Fully deploy the 3D generation as a stable web API using **FastAPI** and host it on dedicated platforms like **Railway**, **Render**, or **Hugging Face Spaces**. This would resolve the local tunneling issues and provide a reliable, accessible service.
 2.  **Interactive Web-based 3D Viewer**: Integrate a client-side web-based 3D viewer (e.g., using libraries like `three.js` or `Babylon.js`) directly into the web interface. This would allow users to interactively preview generated models in-browser without needing external software.
 3.  **Batch Prompt Input**: Implement functionality to allow users to input multiple prompts at once, enabling the generation of a batch of 3D assets more efficiently.
-4.  **Progress Bar / UI Feedback**: Add a visual progress bar or other user interface feedback during the generation process, as 3D model generation can be time-consuming. This would improve the user experience.
-5.  **Improved `.glb` Export Compatibility**: Further optimize the `.glb` export pipeline to ensure maximum compatibility and efficiency for direct import into popular game engines like **Unity** or **Unreal Engine**.
-6.  **Advanced Model Control**: Explore adding parameters to the API/interface that allow users to control aspects of the 3D generation beyond just the prompt (e.g., resolution, style variations, number of faces, etc.).
-7.  **Explore Other 3D Diffusion Models**: Investigate and experiment with other emerging text-to-3D diffusion models (e.g., MVDream, Point-E, Splatting-based methods) for comparison or alternative generation capabilities.
+4.  **Improved `.glb` Export Compatibility**: Further optimize the `.glb` export pipeline to ensure maximum compatibility and efficiency for direct import into popular game engines like **Unity** or **Unreal Engine**.
+5.  **Advanced Model Control**: Explore adding parameters to the API/interface that allow users to control aspects of the 3D generation beyond just the prompt (e.g., resolution, style variations, number of faces, etc.).
+6.  **Explore Other 3D Diffusion Models**: Investigate and experiment with other emerging text-to-3D diffusion models (e.g., MVDream, Point-E, Splatting-based methods) for comparison or alternative generation capabilities.
